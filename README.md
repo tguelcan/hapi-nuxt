@@ -25,7 +25,7 @@ const Hapi = require('@hapi/hapi')
 const nuxtPlugin = require('@nuxtjs/hapi')
 
 await server.register({
-  plugin: nuxtPlugin
+  plugin: nuxtPlugin,
   options: {
     // plugin options
   }
